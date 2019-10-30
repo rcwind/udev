@@ -1,0 +1,5 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{product}=="ydlidar", MODE:="0666", GROUP:="dialout", SYMLINK+="ydlidar"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{serial}=="ydlidar", MODE:="0666", GROUP:="dialout", SYMLINK+="ydlidar"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{product}=="YDLIDAR", MODE:="0666", GROUP:="dialout", SYMLINK+="ydlidar"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{serial}=="YDLIDAR", MODE:="0666", GROUP:="dialout", SYMLINK+="ydlidar"
+
